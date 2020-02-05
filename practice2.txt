@@ -1,4 +1,4 @@
-Task: Use a dictionary to count the words in George Elio's Middlemarch
+Task: Use a dictionary to count the words in George Eliot's Middlemarch
 
 Technique:
     Every distinct word (called a "type" in linguistics) is a key.
@@ -19,5 +19,5 @@ A. Get Middlemarch
 B.  Using ex6.py as a model, tokenize the file by removing all punctuation
     and end of line characters. 
 
-C. Using a dictionary, count and display the number of words in Middlemarch.
+C. Using a dictionary, count and display the number of word types in Middlemarch.
   
