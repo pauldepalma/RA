@@ -1,0 +1,46 @@
+Tasks
+1. Install idle, the IDE for Python (if you have not already done this):
+2. Install the Natural Language Processing Took Kit (nltk)
+3. Write your own version of NLTK functions 
+
+Part 1. Install idle
+Type at the command line: sudo apt-install idle-python3.7
+
+Part 2 
+To install nltk for the virtual machine, 
+  Type at the command line: pip3 install nltk
+
+Test that the installation was successful: 
+  Type at the command line: python3
+  Type at python prompt: import nltk
+  Quit python: quit()
+
+Access the nltk corpora
+  Type at the command line: python3
+  At the python prompt, type: nltk.download()
+     choose 'book'
+  Quit python: quit()
+
+See what corpora are available:
+  Type at the command line: python3 ex7.py
+
+Display sentences in Moby Dick with a given word:
+  Type at the command line: python3 ex8.py
+
+Part 3
+You noticed that the sentences were not displayed very well.
+Write a program, paractice3.py, that:
+
+
+Part 3
+You noticed that the sentences were not displayed very well.
+Write a program, paractice3.py, using idle that:
+1. Opens and reads the file, melvell-moby_dick.txt
+2. Splits it into a list of sentences by writing your own function in place of 'gutenberg.sents'
+3. Asks the user to input a word then:
+   Displays how many times that word is found in Moby Dick
+   Displays the sentences containing that word, but more beautifully than NLTK displays them:
+   --Capitalize the first word.
+   --Remove the initial space before commas and semi-colons
+   --Separate sentences by a blank line
+   --Do whatever else is necessay to make the displayed sentence look like a sentence in a book.
