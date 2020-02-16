@@ -1,0 +1,36 @@
+Task: Count the number unigrams, bigrams, trigrams, and quadgrams in Middlemarch
+
+A.  Learn a bit about N-Grams
+    1. Click on CPSC 475 on my website (www.cs.gonzaga.edu/depalma)
+    2. Click on the link under "6. Lectues."
+    3. Read slides F1 through F7
+    4. Here is an N-gram example:
+        Higgledy Piggledy, my black hen.
+        She lays eggs for gentlemen.
+
+        The unigrams are the individual words.
+        The bigrams are: {Higgledy Piggledy}, {Piggledy my}, {my, black} ...
+        The trigram are: {Higgledy Piggledy my}, {Piggledy my black},
+            {my black hen} ...
+        The quadgrams are: {Higgledy Piggledy my black}, {Piggledy my black hen},
+            {my black hen she} ...
+    
+B. Tokenize Middlemarch
+    1. Read Middlemarc into a string
+
+    2. Delete all lines up to, but not including "Prelude.", the line that
+    starts the text.
+
+    3. Remove all characters except upper and lower case alphabetic characters
+    and spaces, using the regex commands you've already used.
+
+    4. Transform all upper case characters to lower case characters
+
+C.  Using the same technique you used to count words in Middlemarch,
+    count unigrams, bigrams, trigrams, quadgrams in Moby Dick text from NLTK
+
+D.  I'm pretty sure there are functions within NLTK to count grams.  Use them
+    to count the four gram types in Moby Dick.  Compare your numbers from C
+    with the numbers you've gotten using NLTK.
+
+    
