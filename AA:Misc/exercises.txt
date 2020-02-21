@@ -1,0 +1,21 @@
+Exercise 1:
+    Write a program that asks the user for a Celsius temperature and
+    converts it to Faherheit
+
+Exercise 2:
+    Write a programs that, after asking the user for input, either converts
+    Celsius to Fahrenheit or Fahrenheit to Celsius.
+    The program has at least two functions:
+        FtoC
+        CtoF
+
+Exercise 3:
+    Extend exercise 2 so that after the program has done a conversion asks the
+    user if he/she would like another conversion? 'Y' means do it again.
+    'N' means quit
+
+Exercise 4:
+    Write a program that:
+        1. Asks the user for two integers a an b, where a >= 2, a < b
+        2. Generates all prime numbers in the range [a...b]
+        
