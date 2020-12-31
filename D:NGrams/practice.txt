@@ -2,8 +2,9 @@ Task: Count the number unigrams, bigrams, trigrams, and quadgrams in Middlemarch
 
 A.  Learn a bit about N-Grams
     1. Click on CPSC 475 on my website (www.cs.gonzaga.edu/depalma)
-    2. Click on the link under "6. Lectues."
-    3. Read slides F1 through F7
+    2. Click on the Lectures Link
+    3. Click on 3-1:Language Modeling with N-Grams 
+    3. Read slides 1 thorugh 8
     4. Here is an N-gram example:
         Higgledy Piggledy, my black hen.
         She lays eggs for gentlemen.
@@ -16,7 +17,7 @@ A.  Learn a bit about N-Grams
             {my black hen she} ...
     
 B. Tokenize Middlemarch
-    1. Read Middlemarc into a string
+    1. Read Middlemarch into a string
 
     2. Delete all lines up to, but not including "Prelude.", the line that
     starts the text.

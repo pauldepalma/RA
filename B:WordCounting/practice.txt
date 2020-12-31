@@ -4,20 +4,14 @@ Technique:
     Every distinct word (called a "type" in linguistics) is a key.
     The associated value is the number of times it appears in the text
     Everything you need to make this work is illustrated in the examples,
-    but especially ex5.py and ex6.py
+    but especially ex1.py and ex2.py
 
 
 
 
-A. Get Middlemarch
-    1. Go to https://www.gutenberg.org
-    2. Search for Middlemarch
-    3. Download the file 145-0-zip.  On a mac this will get unzipped to
-        145-0.txt.
-    4. Put this in vm-share.  George Eliot's Middlemarch is now on your virtual
-       machine
+A. Find Middlemarch among the files in this directory
 
-B.  Using ex6.py as a model, tokenize the file by removing all punctuation
+B.  Using ex2.py as a model, tokenize the file by removing all punctuation
     and end of line characters. 
 
 C. Using a dictionary, count and display the number of word types in Middlemarch.

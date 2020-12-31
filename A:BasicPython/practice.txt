@@ -18,4 +18,20 @@ Exercise 4:
     Write a program that:
         1. Asks the user for two integers a an b, where a >= 2, a < b
         2. Generates all prime numbers in the range [a...b]
-        
+
+
+Exercies 5:        
+Using idle, create a file of names like:
+John Newman
+Alan Turing
+William Shakespeare
+Noam Chomsky
+
+2. Read them 1 at a time into a string
+3. Split them into first and last names 
+4. Write them to a file in this format:
+   Turing, Allen
+   Shakespeare, William
+   etc.
+5. Item 4 might require that you a little reading about
+   how to conatenate strings in Python.
