@@ -1,3 +1,18 @@
 idle is a good choice for a Python editor
 
 To bring it up from the command line type: idle-python3.7
+
+To open an existing python program, click on File and navigate to a Python file
+
+To run the file, click on Run Module
+
+You could also click on Python Shell.
+
+You'll get a prompt like this:
+
+>>>
+
+You could type in a simple Python script:
+
+>>> x = 7
+>>> 5*x
