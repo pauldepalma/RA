@@ -1,4 +1,5 @@
 #Example 6
+#if you don't know what a regex is, skip this 
 
 #use the regular expression library
 import re
