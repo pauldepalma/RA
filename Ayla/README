@@ -7,10 +7,17 @@ If you don't know now to read a JSON files, you will find examples of this, by c
 Go to the folder ../D-Jypyter-JSON.  You'll find 5-JSON.py which provides a simple example of JSON file I/O (called deserializing/serilzing.  There are more examples in 4-JSON.ipynb.
 There are runnable through Jupyter Notebook. Let me know if you'd like me to pythonize these.
 
+1)
+Write four functions in a single python program:
+Functions one to three will, given a string like the examples, 
+create bi,tri,quadgram lists.  Function four will store
+them in a python dictionary and write it to a json file: ngramsAyla.json
 
-Write five functions in a single python program:
-Functions one to four will, given a string like the examples, 
-create uni,bi,tri,quadgram lists.  Function five will store
-them in a python dictionary and write it to a json file.
+Before you go on to Masque and Ulysses, test your program on Test.json.  You can easily generate the grams by hand and compare them to your own work.
+
+2)
+The Natural Language Tool Kit (NLTK) provides N-Gram generation and counting libraries.  I'll work up a couple of short examples.  Then, set it to work on the three files. Store the output, as above.  Call the file: ngrarmsNLTL.json
+
+Save the programs in Ayla and push the changes to GitHub.
 
 
