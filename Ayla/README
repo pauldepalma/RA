@@ -1,11 +1,15 @@
 Ayla,
 
-These three files are each json strings which, when, uploaded will become strings in your python program.
+These three files are each json strings which, when, uploaded will become 
+strings in your python program.
 
-If you don't know now to read a JSON files, you will find examples of this, by cloning my CPSC222 GitHub repo: clone https://github.com/pauldepalma/CPSC222
+If you don't know now to read a JSON files, JSON_IO.py gives a simple example. 
 
-Go to the folder ../D-Jypyter-JSON.  You'll find 5-JSON.py which provides a simple example of JSON file I/O (called deserializing/serilzing.  There are more examples in 4-JSON.ipynb.
-There are runnable through Jupyter Notebook. Let me know if you'd like me to pythonize these.
+You will find examples of this, by cloning my CPSC222 GitHub 
+repo: clone https://github.com/pauldepalma/CPSC222
+
+Go to the folder ../D-Jypyter-JSON.  These are mostly for Jupyter Notebooks.
+I can turn them into Python if you're interested.
 
 1)
 Write five functions in a single python program:
