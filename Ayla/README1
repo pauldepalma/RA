@@ -1,0 +1,20 @@
+1. Extend what you've for unigrams, bigrams, trigrams to quadgrams and all grams
+
+
+Task 2, Unigrams
+ Make a dictionary such that each key is a word, the value being the number of times it occurs
+ {w1:n1,w2:n2,...w_k:n_k}
+
+Task 3, 
+ Do task 1 for all other grams.
+ Do task 1 for all grams
+
+In the end you'll have a dictionary like this:
+
+{
+ unigrams:{words:counts}
+ bigrams:{words:counts}
+ etc.
+}
+
+
