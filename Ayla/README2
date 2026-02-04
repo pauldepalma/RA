@@ -1,0 +1,46 @@
+Below are specs for two programs.
+Be sure to test your work by running on small files that you can count by hand. 
+
+A. Write a program, make_grams.py, that will:
+1. read a text file whose name is gotten from the command line
+2. generate grams whose type (bi, tri, quad) is gotten from the command line
+3. Counts the frequency of occurence
+4. Generates a file with two columns, bigram followed by frequency 
+
+Example:
+
+higgldy piggledy my black my black higgledy piggledy becomes:
+
+higgledy piggledy 2
+my black 2
+higgldy piggledy 1
+piggledy my 1
+black my 1
+black higgledy 1
+
+5. Create an output file name by concatenating the input file name with the type of gram 
+
+Example: 
+input file: buckeye.txt
+Output file: buckeye_bi.txt
+
+6.Example command line input: python3 make_grams buckeye.txt bi
+
+B. Write a second program, make_all_grams.py, that:
+
+1.  Reads all of the grams files in the current directory.
+
+2. Creates a an output file like the above, though this time all the grams are sorted by frequency 
+and written out in reverse order
+
+Example: An output file for some set of grams might look like this: 
+
+these are the days 12475
+these are 12474
+these were 4534
+hello there Ayla 484
+...
+
+The output file is all_grams_out.txt 
+
+
