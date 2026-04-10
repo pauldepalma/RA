@@ -1,0 +1,72 @@
+Problem: 
+1. tokenize a file
+2. Generate and count n-grams
+3. Pickle the results
+4. Don't push anything up to GitHub!!!!!!!!!!!!
+
+Here are the instructions
+
+The corpora on my computer are here:
+
+/Users/depalma/Desktop/Corpora/Zipf/
+Create a directory like this on your computer
+
+To download the the Zipf project (probably did this alread):
+1. Go to a folder you choose within wls. call it myZipf 
+2. type: git clone https://github.com/pauldepalma/Zipf
+Now you have all all of the Zipf project code:
+
+../myZipf/Zipf  
+
+
+Within the folder Zipf, you'll find all of the zipf code.  Your 
+gram generating code belongs in 6-Gen-Grams.
+
+find in 0-Reproduce two folders: Test and Ulysses
+Test contains two files (because many of the corpora are composed of 
+multiple files).  Ulysses contains a single file: ulysses.txt
+
+You have already Created a folder for your corpora: .../Corpora/Zipf 
+where ... is your version is your version of /Users/depalma/Desktop
+Copy the folders Test and Ulysses to .../Corpora/Zipf/
+
+These have to be tokenized
+1. Go to .../1-Tokenize/Functions
+2. Type: python3 Tokenize.py Test
+
+This will place a tokenized file in: .../Zipf/Output/uni
+
+Now we're ready to do some work
+
+1. Go to 6-Gen-Grans
+
+2. Write a program that will be executded like this:
+   python3 gen-grams.py 2 Test
+
+   where 2 indicates bigrams and Test is the tokenized file to be worked on
+3. The program does the following things:
+   a. Reads in the file corresponding to Test.  This would 
+      be .../Zipf/Output/uni/TestTok.txt
+   b. Generates grams (bigrams in this case): the result is a list
+      of tuples such that each tuple is one of the grams generated
+   c. Count the grams and put them in a dictionary: Freq
+      where each key is a gram represented as a tuple 
+      and each value is its count
+      Ex:
+      File:  "hi there anya"
+      becomes
+      [("hi, there"), ("there", "anya")]
+      becomes
+      Freq:
+      {
+        ("hi", "there"): 1,
+        ("there", "anya"): 1
+      }
+     d. Pickle the dictionary: Test.pkl and store it in 
+        .../Zipf/Corpora/bi (bi because the example creates bigrams
+
+        Picklng is a method of saving an internal data structure.
+        You can read about it here:  
+        https://docs.python.org/3/library/pickle.html
+        You can also ask ChatGPT to explain it to you.
+
