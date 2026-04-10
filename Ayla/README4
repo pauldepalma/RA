@@ -11,12 +11,12 @@ The corpora on my computer are here:
 /Users/depalma/Desktop/Corpora/Zipf/
 Create a directory like this on your computer
 
-To download the the Zipf project (probably did this alread):
+To download the the Zipf project (probably did this already):
 1. Go to a folder you choose within wls. call it myZipf 
 2. type: git clone https://github.com/pauldepalma/Zipf
 Now you have all all of the Zipf project code:
 
-../myZipf/Zipf  
+.../myZipf/Zipf (if the folder you chose waw myZipf) 
 
 
 Within the folder Zipf, you'll find all of the zipf code.  Your 
@@ -34,7 +34,7 @@ These have to be tokenized
 1. Go to .../1-Tokenize/Functions
 2. Type: python3 Tokenize.py Test
 
-This will place a tokenized file in: .../Zipf/Output/uni
+This will place a tokenized file in: .../Zipf/Output/tokenized
 
 Now we're ready to do some work
 
@@ -42,6 +42,9 @@ Now we're ready to do some work
 
 2. Write a program that will be executded like this:
    python3 gen-grams.py 2 Test
+
+   2 can be 1,2,3,4 corresponding to uni, bi, tri, quad grams
+     Test can be any folder in .../Corpora/Zipf/
 
    where 2 indicates bigrams and Test is the tokenized file to be worked on
 3. The program does the following things:
